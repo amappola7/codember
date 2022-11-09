@@ -37,7 +37,14 @@ Los datos pueden estar en la misma línea o separados por líneas.
 Los usuarios se separan por un salto de línea en blanco.
 Los usuarios pueden estar repetidos, pero no importa, siguen siendo válidos.
 Pueden venir datos que no son necesarios para el usuario pero eso no lo hacen inválidos.
+
 Cómo enviar la solución
 Usa el comando "submit" para enviar tu solución con el número de usuarios correctos + el nombre del último usuario válido. Por ejemplo:
 
 $ submit 482@midudev
+
+1. Leer el archivo
+2. Separar por saltos de linea dobles para convertir en elementos de arrays
+3. Filtrar el array por todos los usuarios correctos (que tengan todas las keys)
+4. Sacar el length del array
+5. obtener la ultima posición del array
