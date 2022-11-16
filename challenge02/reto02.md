@@ -22,3 +22,12 @@ Pistas
 Recuerda que los mensajes son cadenas de texto conformadas por números y espacios en blanco.
 Parece que los números tienen algo que ver con el código ASCII.
 Los espacios en blanco parece que son simplemente espacios...
+
+
+Algoritmo:
+1. Leer el archivo encrypted con Node.js
+2. Crear string de resultado
+3. Recorrer el string con un for loop
+4. Hacer validación si el index es 1 o 9
+  4.1. Si es 1 extraer los 2 caracteres siguientes, convertirlos a letra, y concatenar, sumar 3 a variable iteradora.
+  4.2. Si es 9 extraer siguiente caractere, convertirlo a letra, concatenar, y sumar 2 a variable iteradora.
