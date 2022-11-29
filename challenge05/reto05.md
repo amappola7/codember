@@ -60,3 +60,7 @@ Envía la solución con el comando submit, y el índice de la persona que sobrev
 Por ejemplo, si el usuario que sobrevive es facundopacua y está en el índice 8 sería:
 
 $ submit facundocapua-8
+
+
+Algoritmo:
+1. Crear un array con los que no mueren. 
