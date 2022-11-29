@@ -25,3 +25,18 @@ Envía la solución con el comando submit, y el número de passwords que cumplen
 Por ejemplo, para 87 resultados y el password 35522 en la posición 55 sería:
 
 $ submit 87-35522
+submit 165-23555
+
+Restricciones:
+- Tiene 5 digitos.
+- Esta entre 11098 y 98123
+- El número de la derecha es mayor o igual que el de la izquierda.
+- Tiene que tener al menos dos 5.
+
+Algoritmo:
+1. Crear un array para guardar los números que cumplan las condiciones.
+2. Iniciar un for loop que empiece a iterar en 11098 y termine en 98123.
+3. Dentro del for loop hacer las validaciones para cada número.
+  3.1. Si el número es válido hacer push.
+4. Sumar 1 para la próxima iteración.
+5. Sacar el número que está en la posición 55 del array y el largo del array.
