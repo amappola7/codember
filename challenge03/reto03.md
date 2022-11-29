@@ -26,3 +26,19 @@ Cómo enviar la solución
 Usa el comando "submit" para enviar tu solución. Por ejemplo:
 
 $ submit 62@red
+
+** Consideraciones:
+
+1. si la posición siguiente es igual a la que nos encontramos se rompe
+2. Si la tercera posición es difernete a la primera, se rompe
+3. Debemos regresar la última zebra más larga y el último color de esa zebra
+
+** Pasos: 
+
+
+1. Recorrer el array 
+2. Comparamos la posición inicial con la siguiente y si son diferentes los pushea en el obj y compara la siguiente posición. 
+3. Si la tercera posición es igual a la primera, entonces pushea el valor en el obj
+4. Si es diferente a la primera, entonces creamos un nuevo array dentro del array
+5. Iterar hasta finalizar el array.
+6. Luego recorrer el array resultante y traer el de mayor longitud.
